@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="134" max="-2" attributes="0"/>
+                      <Component id="lbFolha" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lbFuncionario" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtFuncionario" min="-2" pref="282" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lbQHoras" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbQFilhos" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtQHora" min="-2" pref="79" max="-2" attributes="0"/>
+                                  <Component id="txtQFilhos" alignment="0" min="-2" pref="77" max="-2" attributes="0"/>
+                                  <Component id="btnGerar" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="100" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lbQHExtras" min="-2" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="txtVHora" max="32767" attributes="0"/>
+                                              <Component id="lbValorH" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Component id="txtQHExtras" alignment="0" min="-2" pref="96" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btnLimpar" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+          <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lbFolha" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Component id="lbFuncionario" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="txtFuncionario" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbQHoras" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbValorH" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtQHora" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtVHora" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbQFilhos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbQHExtras" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtQFilhos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtQHExtras" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="23" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnGerar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnLimpar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lbFolha">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="FOLHA DE PAGAMENTO"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="66" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="lbQHorasFixo" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lbQHorasR" min="-2" pref="57" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="lbSalarioBrutoFixo" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
+                          <Component id="lbSalBrutR" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="lbHoraExtraFixo" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="lbVHExtraR" pref="68" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="lbSalario" min="-2" pref="111" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="lbSalFamiFixo" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="lbVSFamiliaR" min="-2" pref="45" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="lbIRFixo" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="lbIR" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="lbINSSFixo" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="lbINSS" min="-2" pref="59" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="lbSalarioFixo" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                  <Component id="lbFuncionarioFixo" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="lbFuncionarioR" min="-2" pref="126" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel8" min="-2" pref="64" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="lbHolaroideFixo" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                  <Component id="lbHolaroide" min="-2" pref="70" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lbQHExtrasFixo" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lbQHExtrasR" min="-2" pref="57" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbHolaroide" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbHolaroideFixo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel8" min="-2" pref="16" max="-2" attributes="0"/>
+                      <Component id="lbFuncionarioFixo" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbFuncionarioR" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lbQHExtrasFixo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbQHExtrasR" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lbQHorasFixo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbQHorasR" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lbSalarioBrutoFixo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbSalBrutR" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" alignment="3" groupAlignment="3" attributes="0">
+                                  <Component id="lbSalFamiFixo" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbVSFamiliaR" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lbHoraExtraFixo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbVHExtraR" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lbINSSFixo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbINSS" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbSalarioFixo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lbIRFixo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbIR" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbSalario" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lbHolaroideFixo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="HOLERITE -"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbFuncionarioFixo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="FUNCION&#xc1;RIO:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbQHorasFixo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="QUANT. HORAS:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbSalarioBrutoFixo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="SAL&#xc1;RIO BRUTO: R$"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbINSSFixo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="DESCONTO INSS: R$"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbIRFixo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="DESCONTO IR: R$"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbQHExtrasFixo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="QUANT. HORAS EXTRAS:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbHoraExtraFixo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="VALOR HORAS EXTRA : R$"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbSalFamiFixo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="VAL. SAL. FAMILIA: R$"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbSalarioFixo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="SALARIO LIQUIDO"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbFuncionarioR">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="???"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbQHorasR">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="???"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbSalBrutR">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="???"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbINSS">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="???"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbIR">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="???"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbHolaroide">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="???"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbQHExtrasR">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="???"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbVHExtraR">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="???"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbVSFamiliaR">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="???"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbSalario">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="???"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="lbFuncionario">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="FUNCIO&#xc1;RIO"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtFuncionario">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbQHoras">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="QUANT. HORA"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtQHora">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbValorH">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="VALOR DA HORA"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtVHora">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbQFilhos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="QUANT. FILHOS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtQFilhos">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbQHExtras">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="QUANT.HORAS EXTRAS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtQHExtras">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnGerar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="GERAR FOLHA"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGerarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnLimpar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="LIMPAR"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLimparActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

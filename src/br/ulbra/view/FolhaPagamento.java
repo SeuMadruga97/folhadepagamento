@@ -69,28 +69,39 @@ public class FolhaPagamento extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        lbFolha.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 36)); // NOI18N
         lbFolha.setText("FOLHA DE PAGAMENTO");
 
-        jPanel1.setBackground(new java.awt.Color(102, 102, 102));
+        jPanel1.setBackground(new java.awt.Color(153, 153, 255));
 
+        lbHolaroideFixo.setFont(new java.awt.Font("Gill Sans MT", 1, 12)); // NOI18N
         lbHolaroideFixo.setText("HOLERITE -");
 
+        lbFuncionarioFixo.setFont(new java.awt.Font("Gill Sans MT", 1, 12)); // NOI18N
         lbFuncionarioFixo.setText("FUNCIONÁRIO:");
 
+        lbQHorasFixo.setFont(new java.awt.Font("Gill Sans MT", 1, 12)); // NOI18N
         lbQHorasFixo.setText("QUANT. HORAS:");
 
+        lbSalarioBrutoFixo.setFont(new java.awt.Font("Gill Sans MT", 1, 12)); // NOI18N
         lbSalarioBrutoFixo.setText("SALÁRIO BRUTO: R$");
 
+        lbINSSFixo.setFont(new java.awt.Font("Gill Sans MT", 1, 12)); // NOI18N
         lbINSSFixo.setText("DESCONTO INSS: R$");
 
+        lbIRFixo.setFont(new java.awt.Font("Gill Sans MT", 1, 12)); // NOI18N
         lbIRFixo.setText("DESCONTO IR: R$");
 
+        lbQHExtrasFixo.setFont(new java.awt.Font("Gill Sans MT", 1, 12)); // NOI18N
         lbQHExtrasFixo.setText("QUANT. HORAS EXTRAS:");
 
+        lbHoraExtraFixo.setFont(new java.awt.Font("Gill Sans MT", 1, 12)); // NOI18N
         lbHoraExtraFixo.setText("VALOR HORAS EXTRA : R$");
 
+        lbSalFamiFixo.setFont(new java.awt.Font("Gill Sans MT", 1, 12)); // NOI18N
         lbSalFamiFixo.setText("VAL. SAL. FAMILIA: R$");
 
+        lbSalarioFixo.setFont(new java.awt.Font("Gill Sans MT", 1, 12)); // NOI18N
         lbSalarioFixo.setText("SALARIO LIQUIDO");
 
         lbFuncionarioR.setText("???");
@@ -132,7 +143,7 @@ public class FolhaPagamento extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(lbHoraExtraFixo)
                         .addGap(18, 18, 18)
-                        .addComponent(lbVHExtraR, javax.swing.GroupLayout.DEFAULT_SIZE, 68, Short.MAX_VALUE)
+                        .addComponent(lbVHExtraR, javax.swing.GroupLayout.DEFAULT_SIZE, 80, Short.MAX_VALUE)
                         .addGap(30, 30, 30))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -144,6 +155,18 @@ public class FolhaPagamento extends javax.swing.JFrame {
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(6, 6, 6)
+                        .addComponent(lbFuncionarioFixo)
+                        .addGap(18, 18, 18)
+                        .addComponent(lbFuncionarioR, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(lbHolaroideFixo)
+                        .addGap(18, 18, 18)
+                        .addComponent(lbHolaroide, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
@@ -157,20 +180,6 @@ public class FolhaPagamento extends javax.swing.JFrame {
                                 .addComponent(lbINSS, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(28, 28, 28)
                         .addComponent(lbSalarioFixo))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(6, 6, 6)
-                                .addComponent(lbFuncionarioFixo)
-                                .addGap(18, 18, 18)
-                                .addComponent(lbFuncionarioR, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                .addComponent(lbHolaroideFixo)
-                                .addGap(30, 30, 30)
-                                .addComponent(lbHolaroide, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(lbQHExtrasFixo)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -199,12 +208,13 @@ public class FolhaPagamento extends javax.swing.JFrame {
                             .addComponent(lbQHorasFixo)
                             .addComponent(lbQHorasR))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(lbSalarioBrutoFixo)
-                            .addComponent(lbSalBrutR)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                 .addComponent(lbSalFamiFixo)
-                                .addComponent(lbVSFamiliaR)))
+                                .addComponent(lbVSFamiliaR))
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(lbSalarioBrutoFixo)
+                                .addComponent(lbSalBrutR)))
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(52, 52, 52)
@@ -224,14 +234,19 @@ public class FolhaPagamento extends javax.swing.JFrame {
                         .addGap(16, 16, 16))))
         );
 
+        lbFuncionario.setFont(new java.awt.Font("Gill Sans MT", 1, 12)); // NOI18N
         lbFuncionario.setText("FUNCIOÁRIO");
 
+        lbQHoras.setFont(new java.awt.Font("Gill Sans MT", 1, 12)); // NOI18N
         lbQHoras.setText("QUANT. HORA");
 
+        lbValorH.setFont(new java.awt.Font("Gill Sans MT", 1, 12)); // NOI18N
         lbValorH.setText("VALOR DA HORA");
 
+        lbQFilhos.setFont(new java.awt.Font("Gill Sans MT", 1, 12)); // NOI18N
         lbQFilhos.setText("QUANT. FILHOS");
 
+        lbQHExtras.setFont(new java.awt.Font("Gill Sans MT", 1, 12)); // NOI18N
         lbQHExtras.setText("QUANT.HORAS EXTRAS");
 
         btnGerar.setText("GERAR FOLHA");
@@ -253,45 +268,37 @@ public class FolhaPagamento extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addGap(29, 29, 29)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(txtFuncionario, javax.swing.GroupLayout.PREFERRED_SIZE, 282, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lbFuncionario)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(134, 134, 134)
-                        .addComponent(lbFolha))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(29, 29, 29)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(lbFuncionario)
-                                .addComponent(txtFuncionario, javax.swing.GroupLayout.PREFERRED_SIZE, 282, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(lbQHoras)
-                                    .addComponent(lbQFilhos)
-                                    .addComponent(txtQHora, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(txtQFilhos, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(btnGerar))
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGap(100, 100, 100)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(lbQHExtras)
-                                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                                .addComponent(txtVHora)
-                                                .addComponent(lbValorH, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                            .addComponent(txtQHExtras, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(btnLimpar)
-                                        .addGap(20, 20, 20)))))))
-                .addGap(0, 0, Short.MAX_VALUE))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lbQHoras)
+                            .addComponent(lbQFilhos)
+                            .addComponent(txtQHora, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtQFilhos, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnGerar))
+                        .addGap(23, 23, 23)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lbValorH)
+                            .addComponent(txtVHora, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtQHExtras, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lbQHExtras)
+                            .addComponent(btnLimpar))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(lbFolha)
+                .addGap(58, 58, 58))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(21, 21, 21)
                 .addComponent(lbFolha)
-                .addGap(33, 33, 33)
+                .addGap(18, 18, 18)
                 .addComponent(lbFuncionario)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(txtFuncionario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -311,7 +318,7 @@ public class FolhaPagamento extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtQFilhos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtQHExtras, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 23, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnGerar)
                     .addComponent(btnLimpar))

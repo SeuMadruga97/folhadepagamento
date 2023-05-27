@@ -247,7 +247,7 @@ public class FolhaPagamento extends javax.swing.JFrame {
         lbQFilhos.setText("QUANT. FILHOS");
 
         lbQHExtras.setFont(new java.awt.Font("Gill Sans MT", 1, 12)); // NOI18N
-        lbQHExtras.setText("QUANT.HORAS EXTRAS");
+        lbQHExtras.setText("QUANTI.HORAS EXTRAS");
 
         btnGerar.setText("GERAR FOLHA");
         btnGerar.addActionListener(new java.awt.event.ActionListener() {

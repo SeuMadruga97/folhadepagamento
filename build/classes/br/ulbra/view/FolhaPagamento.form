@@ -435,7 +435,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Gill Sans MT" size="12" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="QUANT.HORAS EXTRAS"/>
+        <Property name="text" type="java.lang.String" value="QUANTI.HORAS EXTRAS"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtQHExtras">

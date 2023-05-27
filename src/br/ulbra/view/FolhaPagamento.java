@@ -11,7 +11,7 @@ import static javax.swing.LayoutStyle.getInstance;
 
 /**
  *
- * @author s.lucas
+ *  s.lucas
  */
 public class FolhaPagamento extends javax.swing.JFrame {
 
